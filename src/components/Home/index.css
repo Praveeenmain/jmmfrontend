@@ -1,0 +1,43 @@
+
+.Home-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 95px;
+  }
+  
+
+  .Loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+  }
+
+  .button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #3b4856;
+    color: white;
+    cursor: pointer;
+  }
+  
+  
+  .button:hover {
+    background-color: #3b4856;
+  }
+  
+
+  @media only screen and (max-width: 768px) {
+  
+    .Home-container {
+      max-width: 80%;
+    }
+  }
+  
